@@ -39,3 +39,9 @@ a /= 2; // Division assignment: a = a / 2 (a is now 12)
 //Ternary Operator
 let age = 18;
 let status = (age >= 18) ? "Adult" : "Minor"; // status is "Adult"
+
+// string 
+let firstname= "Mary"
+let lastname =" Nyambura 
+let fullname= firstname+ lastname 
+console log (full name )// joins the two strings to one string 
