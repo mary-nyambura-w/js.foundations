@@ -45,3 +45,29 @@ let firstname= "Mary"
 let lastname =" Nyambura 
 let fullname= firstname+ lastname 
 console log (full name )// joins the two strings to one string 
+
+// longical operetors
+//AND (&&)
+// Returns the value the first truthy value or last falsy value if all are falsy 
+
+// falsy value
+// false 
+// null 
+//nan
+//0
+//undefined
+
+
+// OR(//)
+//returns the value of the fist falsy value or last truthy value if they all are truthy
+console.log(""&&"hello")//("") because it is the first falsy AND returns the first falsy value 
+console.log(""|| "hello")//("hello" the first truthy value )
+console.log(0||7)//(7)the first truthy value OR returns the first truthy
+console.log("hey there"&& "false"&& true)//(true)it is the last truthy value AND returns the first falsy value or th
+console.log(0||""|| null||"false")//("false") the first truthy value
+console.log(age>= 18 && age <= 35)
+console.log(age< 20 || age > 60)
+console.log(age < 18 && "you are a child")
+console.log(AgE >= 18 && "you are an aldult")
+console.log(age <= 18 && age <=35 && "you are among the youth")
+console.log(age>= 18 && age )
