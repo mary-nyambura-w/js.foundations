@@ -75,3 +75,6 @@ console.log(age >= 18 && "You are an adult");// false- the first falsy value-AND
 console.log(age >= 18 && age <= 35 && "You are among the youth");// false- the first falsy value- AND returns the first falsy valu
 console.log((age >= 18 && age <= 35) || "You are not youth"); // you are not youth - because it is the first truthy value 
 // the first part is  false so this makes it falsy
+
+
+//NOT/ NEGATION 
