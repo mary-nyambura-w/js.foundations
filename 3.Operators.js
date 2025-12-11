@@ -65,9 +65,13 @@ console.log(""|| "hello")//("hello" the first truthy value )
 console.log(0||7)//(7)the first truthy value OR returns the first truthy
 console.log("hey there"&& "false"&& true)//(true)it is the last truthy value AND returns the first falsy value or th
 console.log(0||""|| null||"false")//("false") the first truthy value
-console.log(age>= 18 && age <= 35)
-console.log(age< 20 || age > 60)
-console.log(age < 18 && "you are a child")
-console.log(AgE >= 18 && "you are an aldult")
-console.log(age <= 18 && age <=35 && "you are among the youth")
-console.log(age>= 18 && age )
+
+ let age = 10;
+
+console.log(age >= 18 && age <= 35);// false- it  is the first falsy value . AND returns the first falsy valu
+console.log(age < 20 || age > 60);// true - the first truthy, OR returns the first truthy value
+console.log(age < 18 && "You are a child");//"your are a child "- the last truthy value - AND returns the last truthy value the all are truthy  
+console.log(age >= 18 && "You are an adult");// false- the first falsy value-AND returns the first falsy valu
+console.log(age >= 18 && age <= 35 && "You are among the youth");// false- the first falsy value- AND returns the first falsy valu
+console.log((age >= 18 && age <= 35) || "You are not youth"); // you are not youth - because it is the first truthy value 
+// the first part is  false so this makes it falsy
