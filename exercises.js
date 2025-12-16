@@ -19,6 +19,10 @@ function checkEvenOdd(number) {
     return "Odd";
   }
 }
-console.log(checkEvenOdd(4)); // Even
-console.log(checkEvenOdd(7)); // Odd
+console.log(checkEvenOdd(4));  
+console.log(checkEvenOdd(7)); 
  
+function multiply(a,b) {
+    return a * b
+}
+console.log(multiply(7, 3));   
