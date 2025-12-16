@@ -1,4 +1,4 @@
-//CODE INSIDE A FUNCTION WILL NEVER BE EXECUTED UNTIL A FUNCTION IS EXECUTED UNTIL THE FUNCTION IS CALLED /INVOKED
+//CODE INSIDE A FUNCTION WILL NEVER BE EXECUTED   UNTIL THE FUNCTION IS CALLED /INVOKED
 //functions that say something
 
 console.log("Hey");
@@ -8,7 +8,7 @@ function callMe() {
 }
 
 console.log("Hey there ");
-
+                                                                                  
 callMe();
 // by default the javacript runs the code from top to bottom 
 // it will first run the console.log(Hey )

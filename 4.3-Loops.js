@@ -10,12 +10,11 @@ for (let x = 1; x <= 3; x++) {
 
 
 //while
- let  i = 1;
-
-while (i <= 3) {
-  console.log("Hi");
-  i++;
-}
+ 
+let i = 1
+while( i<=3 ){ 
+  console.log("Hi");i++}
+//this will print hi three times 
 
 
 for (let i = 1; i <= 5; i++) {
