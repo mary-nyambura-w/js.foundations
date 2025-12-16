@@ -25,4 +25,12 @@ console.log(checkEvenOdd(7));
 function multiply(a,b) {
     return a * b
 }
-console.log(multiply(7, 3));   
+console.log(multiply(7, 3));  
+ 
+// Function to convert Celsius to Fahrenheit
+function celsiusToFahrenheit(celsius) {
+  let fahrenheit = (celsius * 9/5) + 32;
+  return fahrenheit;
+}
+ 
+console.log(celsiusToFahrenheit(100)); // 212
