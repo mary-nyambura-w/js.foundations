@@ -78,3 +78,15 @@ console.log((age >= 18 && age <= 35) || "You are not youth"); // you are not you
 
 
 //NOT/ NEGATION 
+var x = 1 // x is truthy
+var y = 0 // y is falsey
+var z = null // z is falsey
+console.log(x && y) // prints 0
+console.log(z && y) // prints null
+console.log(z || x) // prints 1
+console.log(y || z) // prints null
+
+//CONCATENATION OPERATOR
+var x = "google";
+x += "." + "com"
+console.log(x) // prints “google.com”// joins the strings to one string
