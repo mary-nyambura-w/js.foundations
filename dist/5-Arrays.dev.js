@@ -4,12 +4,11 @@
 // push() - adds an element to the end of an array
 //returns the new length of the array
 //it mutates the original array
-;
 var colors = ["red", "blue"];
 colors.push("green");
 console.log(colors); // ["red", "blue", "green"]
 
-console.log(colors.length); // 3    
+console.log(colors.length); // 3
 //pop() - removes the last element from an array
 //returns the removed element
 //it mutates the original array
@@ -24,9 +23,9 @@ console.log(removedFruit); // "orange"
 //it mutates the original array
 
 var animals = ["cow", "goat", "pig"];
-var removedElement = arr.shift(); // arr is now [2, 3]
+var removedElement = animals.shift(); // arr is now [2, 3]
 
-console.log(arr);
+console.log(animals);
 console.log(removedElement); //unshift() - adds an element to the beginning of an array
 //returns the new length of the array
 //it mutates the original array
@@ -105,7 +104,7 @@ var total = scores.reduce(function (acc, score) {
 console.log(total); // 60
 
 console.log(scores); // [10, 20, 30]
-//ARRAYS AND CONDITIONALS 
+//ARRAYS AND CONDITIONALS
 
 var users = [{
   name: "Mary",
@@ -126,4 +125,62 @@ for (var _i = 0, _users = users; _i < _users.length; _i++) {
   } else {
     console.log(user.name + " has limited access");
   }
+} //loops and arrays
+// for loop
+
+
+var students = ["Mary", "Jane", "Susan"];
+
+for (var i = 0; i < students.length; i++) {
+  console.log("".concat(i - 1, " : ").concat(students[i]));
 }
+
+var pupils = ["peter", "paul", "mary"];
+
+for (var _i2 = 0, _pupils = pupils; _i2 < _pupils.length; _i2++) {
+  var pupil = _pupils[_i2];
+  console.log(pupil);
+} // Print all vegetables with more than 5 letters, preceded by a number indicating their position in the list
+
+
+var vegetables = ["Carrot", "Onion", "Spinach", "Peas", "Cabbage"];
+var count = 1;
+
+for (var _i3 = 0, _vegetables = vegetables; _i3 < _vegetables.length; _i3++) {
+  var vegetable = _vegetables[_i3];
+
+  if (vegetable.length > 5) {
+    console.log(count + ". " + vegetable);
+    count++;
+  }
+} //for of loop
+
+
+for (var _i4 = 0, _students = students; _i4 < _students.length; _i4++) {
+  var student = _students[_i4];
+  console.log(student);
+} // for each loop
+
+
+students.forEach(function (student) {
+  console.log(student);
+}); // if the current element is less than the lowest, update lowest
+//Loop through the array
+//Only print vegetables whose names start with a vowel (A, E, I, O, U)
+//  Add numbers before each vegetable (1., 2., 3., …)
+
+var veggies = ["eggplant", "carrot", "onion", "spinach", "avocado", "peas"];
+
+for (var _i5 = 0; _i5 < veggies.length; _i5++) {
+  var firstLetter = veggies[_i5][0].toLowerCase();
+
+  if ("aeiou".includes(firstLetter)) {
+    console.log("".concat(_i5 + 1, ". ").concat(veggies[_i5]));
+  }
+}
+
+console.log(veggies); // Output:
+// 1. eggplant
+// 3. onion
+// 5. avocado
+// ACCESSING ELEMENTS

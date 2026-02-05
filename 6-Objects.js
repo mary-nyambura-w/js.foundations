@@ -34,5 +34,23 @@
   { name: "Jane", role: "User" },
   { name: "John", role: "Editor" }
 ];
-//accessing object properties
 
+const person = { firstName: "John", lastName: "Doe",age:25 }; 
+//accessing object properties
+// task - to decribe a car using object
+console.log(firstName);// John 
+console.log(lastName);// Doe
+console.log(age)
+
+let car = {
+    make :"Toyota",
+    model :"Camry",
+      year :2020,
+
+      color :"blue",
+
+      start : function(){
+        return "car started";
+      }
+
+}

@@ -107,3 +107,8 @@ do {
 } while (input <= 10);
 // This will keep prompting the user until they enter a number greater than 10  
 
+// loops with objects
+const person = {name:"wanjiru", age:25, role:"admin"};
+for (let key in user) {
+  console.log(key + ": " + user[key]);, 
+}//prints each key and value in the user object

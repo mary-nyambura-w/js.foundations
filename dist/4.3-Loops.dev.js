@@ -119,4 +119,8 @@ var input;
 
 do {
   input = prompt("Enter a number greater than 10:");
-} while (input <= 10); // This will keep prompting the user until they enter a number greater than 10
+} while (input <= 10); // This will keep prompting the user until they enter a number greater than 10  
+// loops with objects
+
+
+cons;
